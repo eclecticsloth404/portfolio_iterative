@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>    <link rel="stylesheet" href="style.css">
+    <title>Iterative Design</title>
+  </head>
+  <body style="display: block;">
+    <nav class="navbar navbar-expand-lg navBar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <h1>Iterative Design</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-size: 20px !important">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#overview">Overview</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#sketches">Initial Sketches</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#lofi">Lo-Fi Prototypes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hifi">Hi-Fi Prototypes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testing">User Testing</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div id="overview" style="margin: 50px;">
+      <h2>Overview</h2>
+      <p>
+        This group project required us to choose a startup from Y-Combinator, interpret their startup idea, and create 
+        a mockup of a mobile or web app for the startup. We chose the startup Agapé.
+      </p>
+
+      <p>
+        Agapé is a relationship wellness app for couples that nurtures both physical and emotional intimacy. Couples 
+        start their day with a daily question designed to spark meaningful conversation.
+      </p>
+      <p>
+        The goal of the project were to become familiar with the iterative design process assignment and to design 
+        an interface mockup for this startup idea.
+      </p>
+    </div>
+
+    <div id="sketches" style="margin: 50px;">
+      <h2>Initial Sketches</h2>
+      <p>
+        First, we created intial sketches based on the description of the startup. We weren't allowed to look at the 
+        startup's actual designs, nor could we look at our teammates designs until we we're all finished. This way, we
+        wouldn't be influenced by the initial design.
+      </p>
+      <div class="text-center">
+        <iframe src="./assets/sketches.pdf" width="75%" height="800px" style="margin: 20px"></iframe>
+      </div>
+      <h4>Conclusions</h4>
+      <p>
+        Based on each of our three sketches, we decided to include these following features in our low fidelity 
+        prototype:
+        <ul>
+          <li>A splash page that prompts the user to begin using the app.</li>
+          <li>A login page to simulate signing into an account.</li>
+          <li>Some sort of question/messaging page that allows users to converse about a chosen question.</li>
+          <li>A profile page that allows users to edit their account details.</li>
+        </ul>
+      </p>
+    </div>
+
+    <div id="lofi" style="margin: 50px;">
+      <h2>Lo-Fi Prototypes</h2>
+      <h4>Low-Fidelity Wireframing</h4>
+      <p>
+        After drafting the initial sketches, we looked over them as a group and used these to create a cohesive, low-
+        fidelity wireframe for the app.
+      </p>
+      <div class="text-center">
+        <iframe src="./assets/ID Wireframes.pdf" width="75%" height="800px" style="margin: 20px"></iframe>
+      </div>
+    </div>
+
+    <div id="hifi" style="margin: 50px;">
+      <h2>Hi-Fi Protytpes</h2>
+      <h4>Visual Design Style Guide</h4>
+      <p>
+        Before starting the hi-fi prototype, we created a visual design style guide in Figma that displays the main 
+        colors, typography, and the different states of reusable components in the interface.
+      </p>
+      <div class="text-center">
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Ffndx4QKgOH4RAyCerbPCee%2FIterative-Design-Figma%3Fnode-id%3D1%253A6%26t%3DoNfGmTUtvGWUTT4k-1" allowfullscreen></iframe>
+      </div>
+      <h4>Peer Critique</h4>
+      <p>
+        Based on our wireframes, we used Figma to create an initial prototype. As part of the design process, we held 
+        a studio session to recieve peer feedback on this design. Below is a summary of that feedback.
+        <ul>
+          <li>Maybe make the text on the Home Screen cover a little less of the width of the screen;</li>
+          <li>I think a little padding on the outside of the text would look good On the profile page, consider making each category (age, partner, etc. ) a different color or font style (e.g. bold) than the responses, as right now it’s a little hard to read</li>
+          <li>Small detail, but make sure to center the name and photo on the profile page</li>
+          <li>A little confused about what the purpose of app is</li>
+          <li>More prototyping after the “questions page” would be helpful</li>
+          <li>Calendar for streak isn't very interactive or useful unless you're searching for that information.</li>
+          <li>Probably not a priority to show unless a user clicks “streak” on profile</li>
+        </ul>
+      </p>
+      <h4>Final Prototype</h4>
+      <p>
+        We used this peer feedback to improve our design. Below is the final prototype we created in Figma.
+      </p>
+      <div class="text-center">
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Ffndx4QKgOH4RAyCerbPCee%2FIterative-Design-Figma%3Fnode-id%3D0%253A1%26t%3DoNfGmTUtvGWUTT4k-1" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div id="testing" style="margin: 50px;">
+      <h2>User Testing</h2>
+      <h4>Choosing a Task</h4>
+      <p>
+        Time to test the prototype! In order to conduct user tests on our prototype, we needed to decide on an
+        overarching task for the users to complete. Here's the task we gave to our users:
+      </p>
+      <p style="margin: 0 50px;">
+        Try to view your messages from November 2nd by using the calendar streaks!
+        <ol type="1" style="font-size: 1.2rem; margin: 0 50px;">
+          <li>Click "get started"</li>
+          <li>Click "Login"</li>
+          <li>You should see the question that was asked that day, and the conversation you and your partner had as a result</li>
+        </ol>
+      </p>
+      <h4>User Tests</h4>
+      <p>
+        We administered the user tests on usertesting.com and asked three users to test our prototype. The video 
+        results are embedded below.
+      </p>
+      <div class="text-center">
+        <p>
+          User Test 1
+        </p>
+        <video src="./assets/usertestingA.mp4" style="max-width: 1000px"></video>
+        <p>
+          User Test 2
+        </p>
+        <video src="./assets/usertestingB.mp4" controls=""></video>
+        <p>
+          User Test 3
+        </p>
+        <video src="./assets/usertestingC.mp4" controls=""></video>
+      </div>
+    </div>
+  </body>
+
+  <footer class="py-3" style="background-color: #CEE4D6;">
+    <div class="container text-center">
+      <p class="mb-0">
+        I hope you liked it
+      </p>
+    </div>
+  </footer>
+</html>
