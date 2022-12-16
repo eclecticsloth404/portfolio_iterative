@@ -1,6 +1,3 @@
-/* signika-regular - latin */
-
-
 body {
   font-family: Inter, sans-serif;
   background-color: #FFF8FA;
@@ -9,6 +6,9 @@ body {
 
 .navBar {
   background-color: #FFE9E7;
+  position: sticky; 
+  top: 0px; 
+  z-index:1;
 }
 
 p {
